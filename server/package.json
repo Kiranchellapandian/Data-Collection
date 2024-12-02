@@ -1,0 +1,22 @@
+{
+  "name": "webcollect",
+  "version": "1.0.0",
+  "description": "Backend for web interaction data collection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "mongoose": "^6.13.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
