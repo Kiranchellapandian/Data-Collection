@@ -40,7 +40,6 @@
     ]
   }
 }
-=======
 {
   "name": "webcollect",
   "version": "0.1.0",
@@ -83,4 +82,4 @@
     ]
   }
 }
->>>>>>> cabbd602 (made the initial commit)
+
