@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 // MongoDB connection URI with username and password
 const mongoURI =
   process.env.MONGO_URI ||
-  'mongodb://admin:admin@localhost:27017/botDetectorDB?authSource=admin';
+  'MONGODB_URI=mongodb+srv://NARIK19991c:<SWT6fU5rExzGtUjk>@lablehuman.uni8x.mongodb.net/?retryWrites=true&w=majority&appName=LABLEHUMAN';
 
 // MongoDB connection
 mongoose
