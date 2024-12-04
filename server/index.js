@@ -14,7 +14,7 @@ mongoose.set('strictQuery', false);
 // Enable CORS for specific origin (adjust as needed)
 app.use(
   cors({
-    origin: 'http://localhost:3000', // Allow requests from this origin (frontend)
+    origin: 'https://data-collection-dytbe2rgb-kirans-projects-984cd662.vercel.app/', // Allow requests from this origin (frontend)
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed methods
     allowedHeaders: ['Content-Type'], // Allowed headers in request
   })
